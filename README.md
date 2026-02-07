@@ -6,7 +6,7 @@ In this project, you'll be creating a frontend that graphically displays Pokémo
 ## Setting Up
 - Fork this repository, set the owner to BoG-Developer-Bootcamp-S26, and name it `project1-s26-yourname`
 - Clone the repository onto your local computer
-- Navigate to your new project folder and create your HTML, CSS, and TS files
+- Navigate to your new project folder and create your HTML, CSS, and JS files
 
 # Submission Instructions
 - Create a 0.5-3 minute video walkthrough of your project (include the video link in the README of your project repo)
@@ -28,7 +28,7 @@ In this project, you'll be creating a frontend that graphically displays Pokémo
 ### General Guidelines
 You should try to follow the mockups as closely as possible (including the alignments). The Figma designs can be found [here](https://www.figma.com/file/fQMSS7UqlWSY8M4uadlboM/Bits-of-Good-F23-Project-1?type=design&node-id=0%3A1&mode=design&t=94SJ06eCzcBAOSip-1).
 
-This project is designed to replicate real Bits of Good developer work. Typically, developers are given mockups by designers and are tasked with implementing them in code.
+This project is designed to replicate real Bi of Good developer work. Typically, developers are given mockups by designers and are tasked with implementing them in code.
 
 ### API Fetches
 You will be pinging the PokeAPI using `fetch()`. Refer to the [PokeAPI docs](https://pokeapi.co/docs/v2#pokemon) for more details about endpoints and JSON response formats. You can also view your requests at https://pokeapi.co/.
