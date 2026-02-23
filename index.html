@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bits of Good Mid-Semester Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Bits of Good Mid-Semester Project</h1>
+
+    <div class="main-grid">
+
+      <div class="left-col">
+        <div class="pokemon-image-box">
+          <img id="pokemon-img" src="" alt="Pokémon" />
+        </div>
+        <div class="pokemon-name" id="pokemon-name">Loading...</div>
+        <div class="types-section">
+          <div class="types-label">Types:</div>
+          <div class="types-list" id="types-list"></div>
+        </div>
+        <div class="arrow-buttons">
+          <button id="btn-prev" onclick="changePokemon(-1)">
+            <img src="leftArrow.png" alt="Previous">
+          </button>
+          <button id="btn-next" onclick="changePokemon(1)">
+            <img src="leftArrow.png" alt="Next">
+          </button>
+        </div>
+      </div>
+      
+
+      <div class="right-col">
+        <div class="panel-title" id="panel-title">Info</div>
+
+        <div class="info-panel" id="info-panel">
+          <div id="info-content"></div>
+        </div>
+
+        <div class="moves-panel hidden" id="moves-panel">
+          <ul id="moves-list"></ul>
+        </div>
+
+        <div class="tab-buttons">
+          <button id="tab-info" class="active" onclick="switchTab('info')">Info</button>
+          <button id="tab-moves" onclick="switchTab('moves')">Moves</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
